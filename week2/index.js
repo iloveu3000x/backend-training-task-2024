@@ -84,7 +84,7 @@ if (coachIncome <= 100000) {
 } else if (coachIncome <= 300000) {
   coachBonus += (coachIncome * 0.15);
 } else {
-  coachBonus += coachIncome * 0.1;
+  coachBonus += coachIncome * 0.2;
 }
 
 console.log(`小明總共需支付 $${coachBonus} 獎金`);
